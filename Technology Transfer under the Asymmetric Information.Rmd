@@ -24,19 +24,38 @@ When you click the **Knit** button a document will be generated that includes bo
 ## Technology transfer under asymmetric information
 
 ```{r}
-# <img src = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg">
-# (![Nancy T. Gallini](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg)"
+#![Nancy T. Gallini](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg)
 # 
 # img1 <- rasterGrob(as.raster(readJPEG(![Nancy T. Gallini](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg)), interpolate = FALSE)
 # img2 <- rasterGrob(as.raster(readJPEG(![Brian D. Wright](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/picture-11939-1414095544.jpeg)), interpolate = FALSE)
 # grid.arrange(img1, img2, ncol = 2)
 ```
-<img src = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg", scr = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/picture-11939-1414095544.jpeg">
+<!-- <img src = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg", scr = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/picture-11939-1414095544.jpeg"> -->
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+## Introduction
 
+What explains the the form of the contract for newly patented innovations?
+
+1. The superiority of a licensor's precontractual information about the economic value of the innovation
+2. Sharing this information with the licensee may facilitate imitation
+
+## The problem of innovation transfer
+
+## Exclusive contracts
+
+## Nonexclusive contracts for product or drastic innovations
+
+## The separating equilibrium contracts
+
+## Conclusions
+
+## Critique
+
+The paper was published 28 years ago. 
+* No continious types, only A and B
+* Many assumptions are too strong
+* 
+  
 ## Slide with Plot
 
 ```{r pressure}
