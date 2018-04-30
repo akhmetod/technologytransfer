@@ -1,0 +1,37 @@
+---
+title: "Technology Transfer under the Asymmetric Information"
+author: "Daniyar Akhmetov"
+date: "30 4 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Technology transfer under asymmetric information
+![Nancy T. Gallini](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg)
+![Brian D. Wright](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/picture-11939-1414095544.jpeg)
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
