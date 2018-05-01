@@ -2,26 +2,31 @@
 title: "Technology Transfer under the Asymmetric Information"
 author: "Daniyar Akhmetov"
 date: "30 4 2018"
-output: ioslides_presentation
+output: 
+  ioslides_presentation:
+    theme: NULL
+    highlight: NULL
+    css: custom.css
+  incremental: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Technology transfer under asymmetric information {.SlideClass #SlideID1}
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+workingDirectory <- getwd()
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+grid.arrange(img1, img2, ncol = 2)
 
-## Slide with Bullets
+![Nancy T. Gallini](/Users/tva/Technology transfer/images/cropped-jpg_profile_Nancy-Gallini.jpeg)  
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+knitr::include_graphics(file.path(/Users/tva/Technology transfer/images, "iStock_000018083476Medium.jpg")
 
-## Technology transfer under asymmetric information
+## Brian D. Wright
+
+![Brian D. Wright](/Users/tva/Technology transfer/images/picture-11939-1414095544.jpeg)
 
 ```{r}
 #![Nancy T. Gallini](/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg)
@@ -32,33 +37,98 @@ When you click the **Knit** button a document will be generated that includes bo
 ```
 <!-- <img src = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/cropped-jpg_profile_Nancy-Gallini.jpeg", scr = "/Users/akhmetod88/Technology Transfer under the Asymmetric Information/images/picture-11939-1414095544.jpeg"> -->
 
+## Structure
+
+What is the *research question*?  
+How does the question fall into the field?  
+What can we gain?  
+What is the *contribution*?  
+What is the *methodological approach*?  
+
 ## Introduction
 
-What explains the the form of the contract for newly patented innovations?
+**What explains the the form of the contract for newly patented innovations?**
 
-1. The superiority of a licensor's precontractual information about the economic value of the innovation
-2. Sharing this information with the licensee may facilitate imitation
+1. Asymmetric information about the value of the innovation
+2. The problem of imitation by a licensee
+
+## Research question
+
+**Principle-agent problem:**
+  How do you design a licensing contract that maximizes profit if both parties may be opportunistic?
+  
+## Contribution
+
+**Bhattacharya and Ritter** (1983): **pre**innovation to potential financiers of an R&D projects  
+
+**Gallini and Wrights** (1990): **post**innovation signalling to potential purchasers of the rights to the innovation
 
 ## The problem of innovation transfer
 
+- Feasible contracts $(n, F, P(x))$
+- The potential to imitate
+    - type A (low-cost)
+    - type B (high-cost)
+- The nature of information asymmetries and the game
+
+The signalling game has 3 stages.
+#inserted Figure 1. Timing of the licensing game
+
+## Contractual design under asymmetric information
+
+Separating equilibrium contract for a licensor with a type A innovation.
+
+Total payments to the type A licensor specified in the contract must satisfy:
+
+- Rationality $F \leq V_A{(s)} - P(x_A{(s)})$
+- No imitation $V_A(s) - P(x_A(s)) \leq W_A(s) - I$
+- Separation $n[F + P(x_B(s))] \leq \pi_B$
+
+## Timing of the licensing game
+
+(...)
+
 ## Exclusive contracts
+
+A per-unit royalty reduces output below the monopoly level, which prevents full monopoly profits from being realized.
+
+## Exclusive contracts for nondrastic innovations
+
+A linear exclusive contract with a constant royalty does **not** distort output for "run-of-the-mill" (nondrastic) innovations when the **pre**innovation price is competitive.
 
 ## Nonexclusive contracts for product or drastic innovations
 
+With competing licensees, the per-unit royalty reduces output to the monopoly level by raising each firm's marginal cost.
+
+When **imitation costs** are **large** enough that an output royalty will not induce firms to invent around the technology, **contracts with a simple constant royalty *can* extract all the rents**.
+
+$I \ge W_A(s_n^*) - (\pi_A/n - Rx_A(s_n^*)) \equiv z(s_n^*)$
+
+A constant per-unit royalty raises marginal costs and results in too little output under an exclusive license, but reduces output to the monopoly level in a market with multiple Cournot licensees.
+
 ## The separating equilibrium contracts
+
+Separating equilibrium contract may have a simple linear payment scheme.
+
+## Separating equilibrium contracts for a technology
 
 ## Conclusions
 
+*Innovations with relatively low values (type B):*
+- can be fully exploited with an exclusive contract and a fixed fee
+
+*High-value innovations (type A):*
+1. The licensor will offer a contract with an output-related royalty in equilibrium.
+2. The equilibrium contract may leave some rents with the licensee(s).
+3. 
+
 ## Critique
 
-The paper was published 28 years ago. 
-* No continious types, only A and B
-* Many assumptions are too strong
-* 
-  
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
+* The paper was published 28 years ago. 
+* No continious types, only A and B  
+* Many assumptions are too strong, e.g. risk-neutrality.  
+* What would have happened if they were not risk-neutral. 
+* Loss of generality  
+* Is there a pooling equilibrium  
+* "...behave like Cournot firms". Why not like Stackelberg or Bertrand firms?  
 
